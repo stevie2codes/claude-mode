@@ -1,0 +1,6 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+*.md
+!README.md
+!CHANGELOG.md

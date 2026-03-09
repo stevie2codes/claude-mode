@@ -1,0 +1,60 @@
+{
+  "name": "claude-mode",
+  "displayName": "Claude Mode",
+  "description": "A warm, elegant VS Code theme inspired by Claude AI's brand colors. Includes Claude Mode (Terracotta) and Claude Velvet (Plum) variants, each in light and dark, with creamy cream backgrounds, sage, and soft blue.",
+  "version": "1.0.0",
+  "publisher": "YOUR_PUBLISHER_ID",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "claude",
+    "anthropic",
+    "warm",
+    "terracotta",
+    "plum",
+    "velvet",
+    "cream",
+    "light",
+    "dark",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1f1e1b",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Mode Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-mode-light-color-theme.json"
+      },
+      {
+        "label": "Claude Mode Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-mode-dark-color-theme.json"
+      },
+      {
+        "label": "Claude Velvet Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-velvet-light-color-theme.json"
+      },
+      {
+        "label": "Claude Velvet Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-velvet-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
