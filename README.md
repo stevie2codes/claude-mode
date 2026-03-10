@@ -1,52 +1,153 @@
-# Claude Mode
+# 🎨 Claude Mode
 
-A warm, elegant VS Code color theme inspired by Claude AI's brand colors.
+### A warm, elegant VS Code theme inspired by Claude AI
 
-## Variants
+[![Version](https://img.shields.io/visual-studio-marketplace/v/TheWebDev.claude-mode?style=for-the-badge&color=d97757&label=VERSION)](https://marketplace.visualstudio.com/items?itemName=TheWebDev.claude-mode)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/TheWebDev.claude-mode?style=for-the-badge&color=788c5d&label=INSTALLS)](https://marketplace.visualstudio.com/items?itemName=TheWebDev.claude-mode)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/TheWebDev.claude-mode?style=for-the-badge&color=6a9bcc&label=RATING)](https://marketplace.visualstudio.com/items?itemName=TheWebDev.claude-mode&ssr=false#review-details)
+[![License](https://img.shields.io/github/license/stevie2codes/claude-mode?style=for-the-badge&color=c9956b)](https://github.com/stevie2codes/claude-mode/blob/main/LICENSE)
 
-- **Claude Mode Light** — Creamy white backgrounds with warm terracotta, sage, and blue accents
-- **Claude Mode Dark** — Deep warm darks with the same accent palette
+---
 
-## Color Palette
+**Claude Mode** brings the warmth and sophistication of Claude AI's design language to your editor. Featuring creamy cream backgrounds, rich terracotta and plum accents, sage green strings, and soft blue functions — all wrapped in a carefully crafted "picture frame" UI.
 
-| Role | Color |
-|------|-------|
-| Primary Accent | Terracotta Orange |
-| Secondary Accent | Soft Blue |
-| Tertiary Accent | Sage Green |
-| Types & Classes | Warm Brown |
-| Constants | Amber |
+> 🟠 **Claude Mode** — Terracotta accent · Light & Dark
+> 🟣 **Claude Velvet** — Plum accent · Light & Dark
 
-## Screenshots
+---
 
-<!-- Add screenshots here after testing -->
-<!-- ![Claude Mode Light](screenshots/light.png) -->
-<!-- ![Claude Mode Dark](screenshots/dark.png) -->
+## ✨ 4 Themes Included
 
-## Installation
+### 🟠 Claude Mode Light
+Warm cream (`#f5f0e6`) editor background with terracotta frame effect.
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Claude Mode"
-4. Click Install
-5. Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
-6. Type "Color Theme" and select "Preferences: Color Theme"
-7. Choose "Claude Mode Light" or "Claude Mode Dark"
+![Claude Mode Light](screenshots/claude-mode-light.png)
 
-## Features
+### 🟠 Claude Mode Dark
+Deep warm darks (`#1f1e1b`) with the same terracotta frame.
 
-- Full workbench theming (sidebar, tabs, status bar, terminal, etc.)
-- Comprehensive syntax highlighting for 15+ languages
-- Semantic highlighting for TypeScript/JavaScript
-- Terminal ANSI colors in warm palette
-- Bracket pair colorization using brand colors
-- Git decoration colors
-- Diff editor theming
+![Claude Mode Dark](screenshots/claude-mode-dark.png)
 
-## Languages Tested
+### 🟣 Claude Velvet Light
+Warm cream background with a luxurious plum (`#7a4a78`) frame effect.
 
-TypeScript, JavaScript, Python, HTML, CSS, JSON, YAML, TOML, Markdown, Rust, Go, and more.
+![Claude Velvet Light](screenshots/claude-velvet-light.png)
 
-## License
+### 🟣 Claude Velvet Dark
+Deep warm darks with plum accents throughout.
 
-MIT
+![Claude Velvet Dark](screenshots/claude-velvet-dark.png)
+
+---
+
+## 🎯 Design Philosophy
+
+Claude Mode isn't just a color swap — every element is intentionally designed:
+
+- **"Picture Frame" UI** — Title bar, activity bar, and status bar create a cohesive colored frame around your editor
+- **Visual Hierarchy** — Darker title bar (`#b85a3a`) graduates to the primary accent below
+- **Warm Typography** — Syntax colors drawn from Claude's brand palette, expanded with harmonious earth tones
+- **Tinted Details** — Scrollbars, inlay hints, ghost text, and debug toolbars all carry the theme's warmth
+
+---
+
+## 🎨 Color Palette
+
+### Claude Mode (Terracotta)
+| Role | Light | Dark |
+|------|-------|------|
+| **Keywords** | `#c15f3c` | `#d97757` |
+| **Strings** | `#788c5d` | `#8fa874` |
+| **Functions** | `#5a82a6` | `#6a9bcc` |
+| **Types** | `#9b6e4a` | `#c9956b` |
+| **Constants** | `#a67235` | `#d4a05a` |
+| **Comments** | `#a09d93` | `#6b6961` |
+
+### Claude Velvet (Plum)
+| Role | Light | Dark |
+|------|-------|------|
+| **Keywords** | `#6b3a69` | `#9a6a98` |
+| **Strings** | `#788c5d` | `#8fa874` |
+| **Functions** | `#5a82a6` | `#6a9bcc` |
+| **Types** | `#9b6a6e` | `#c48a8e` |
+| **Constants** | `#a67235` | `#d4a05a` |
+| **Comments** | `#a09d93` | `#6b6961` |
+
+---
+
+## 📦 Installation
+
+1. Open **VS Code**
+2. Go to **Extensions** (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for **"Claude Mode"**
+4. Click **Install**
+5. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
+6. Type **"Color Theme"** → select **Preferences: Color Theme**
+7. Choose your variant:
+   - 🟠 Claude Mode Light
+   - 🟠 Claude Mode Dark
+   - 🟣 Claude Velvet Light
+   - 🟣 Claude Velvet Dark
+
+---
+
+## 🛠 Features
+
+- **Full workbench theming** — Sidebar, tabs, status bar, panels, terminal
+- **Picture frame UI** — Colored title bar + activity bar + status bar
+- **Tinted scrollbars** — Subtle accent-colored scrollbar indicators
+- **Styled command center** — Frosted glass effect on the title bar
+- **Debug toolbar** — Themed debug controls with action-colored icons
+- **Notebook support** — Jupyter/notebook cell styling
+- **Testing UI** — Sage green pass, red fail, amber queued indicators
+- **Inlay hints** — Warm muted tones that don't distract
+- **Ghost text** — Subtle warm gray for AI suggestions
+- **Semantic highlighting** — Enhanced TypeScript/JavaScript token colors
+- **Bracket pair colorization** — Using the brand accent palette
+- **Git decorations** — Warm-toned status colors
+- **Diff editor** — Themed insert/delete backgrounds
+- **Terminal ANSI colors** — Full warm palette
+
+---
+
+## 🌐 Languages Tested
+
+TypeScript · JavaScript · Python · HTML · CSS · JSON · YAML · TOML · Markdown · Rust · Go · Java · C++ · and more
+
+---
+
+## 💡 Recommended Settings
+
+For the best experience, add these to your `settings.json`:
+
+```json
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Menlo, monospace",
+  "editor.fontLigatures": true
+}
+```
+
+---
+
+## 🤝 Contributing
+
+Found a color that feels off? Want to suggest improvements?
+
+1. [Open an issue](https://github.com/stevie2codes/claude-mode/issues) on GitHub
+2. Fork the repo and submit a PR
+3. Use **Developer: Inspect Editor Tokens and Scopes** to identify token scopes
+
+---
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE) — Made with ☕ and warm earth tones.
