@@ -3,7 +3,7 @@
   "displayName": "Claude Mode",
   "description": "A warm, elegant VS Code theme inspired by Claude AI's brand colors. Includes Claude Mode (Terracotta) and Claude Velvet (Plum) variants, each in light and dark, with creamy cream backgrounds, sage, and soft blue.",
   "version": "1.0.0",
-  "publisher": "YOUR_PUBLISHER_ID",
+  "publisher": "TheWebDev",
   "engines": {
     "vscode": "^1.80.0"
   },
